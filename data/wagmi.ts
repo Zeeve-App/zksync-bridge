@@ -10,8 +10,8 @@ import { getPrividiumTransport } from "@/data/prividium";
 const portalRuntimeConfig = usePortalRuntimeConfig();
 
 const metadata = {
-  name: "ZKsync Portal",
-  description: "ZKsync Portal - view balances, transfer and bridge tokens",
+  name: "Zeeve Portal",
+  description: "Zeeve Portal - view balances, transfer and bridge tokens",
   url: "https://portal.zksync.io",
   icons: ["https://portal.zksync.io/icon.png"],
 };

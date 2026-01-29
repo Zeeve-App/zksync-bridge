@@ -31,7 +31,7 @@ const redirectURL = route.query.redirect as string;
 
 const { order } = storeToRefs(useOrderProcessingStore());
 
-const chainIcon = ref("/img/era.svg");
+const chainIcon = useZeeveLogoSrc();
 
 const { selectedToken } = storeToRefs(useOnRampStore());
 

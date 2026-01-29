@@ -50,7 +50,7 @@ import { ChevronLeftIcon, ChevronRightIcon, ArrowRightIcon } from "@heroicons/vu
 
 import type { Route } from "zksync-easy-onramp";
 
-const chainIcon = "/img/era.svg";
+const chainIcon = useZeeveLogoSrc();
 
 const { routes } = useRoutesStore();
 

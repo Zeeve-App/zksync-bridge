@@ -7,12 +7,13 @@ export type TransactionDestination = {
 export const useDestinationsStore = defineStore("destinations", () => {
   const { l1Network } = storeToRefs(useNetworkStore());
   const { eraNetwork } = storeToRefs(useZkSyncProviderStore());
+  const zeeveLogoSrc = useZeeveLogoSrc();
 
   const destinations = computed(() => ({
     era: {
       key: "era",
       label: eraNetwork.value.name,
-      iconUrl: "/img/era.svg",
+      iconUrl: zeeveLogoSrc.value,
     },
     ethereum: {
       key: "ethereum",

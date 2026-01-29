@@ -61,7 +61,7 @@ import SelectTokenModal from "@/views/on-ramp/SelectTokenModal.vue";
 
 const { selectedToken } = storeToRefs(useOnRampStore());
 
-const chainIcon = ref("/img/era.svg");
+const chainIcon = useZeeveLogoSrc();
 
 const { step } = storeToRefs(useOnRampStore());
 const fiatAmount = defineModel<string>({ required: true });

@@ -73,5 +73,5 @@ const selectedTokenAddress = computed({
     selectedToken.value = tokensList.value.find((token) => token.address === address) ?? null;
   },
 });
-const chainIcon = ref("/img/era.svg");
+const chainIcon = useZeeveLogoSrc();
 </script>

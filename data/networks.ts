@@ -87,7 +87,7 @@ const publicChains: ZkSyncNetwork[] = [
   {
     id: 324,
     key: "mainnet",
-    name: "ZKsync Era",
+    name: "Zeeve",
     rpcUrl: "https://mainnet.era.zksync.io",
     blockExplorerUrl: "https://era.zksync.network",
     blockExplorerApi: "https://block-explorer-api.mainnet.zksync.io",
@@ -101,7 +101,8 @@ const publicChains: ZkSyncNetwork[] = [
   {
     id: 300,
     key: "sepolia",
-    name: "ZKsync Era Sepolia",
+    name: "Zeeve Era Sepolia",
+    hidden: true,
     rpcUrl: "https://sepolia.era.zksync.dev",
     blockExplorerUrl: "https://sepolia-era.zksync.network",
     blockExplorerApi: "https://block-explorer-api.sepolia.zksync.dev",
@@ -115,7 +116,7 @@ const publicChains: ZkSyncNetwork[] = [
   {
     id: 270,
     key: "stage",
-    name: "ZKsync Stage",
+    name: "Zeeve Stage",
     rpcUrl: "https://z2-dev-api.zksync.dev",
     blockExplorerUrl: "https://sepolia-beta.staging-scan-v2.zksync.dev",
     blockExplorerApi: "https://block-explorer-api.stage.zksync.dev",
@@ -128,7 +129,8 @@ const publicChains: ZkSyncNetwork[] = [
   {
     id: 9075,
     key: "gateway",
-    name: "ZKsync Gateway",
+    name: "Zeeve Gateway",
+    hidden: true,
     rpcUrl: "https://rpc.era-gateway-mainnet.zksync.dev",
     blockExplorerUrl: "https://explorer.era-gateway-mainnet.zksync.dev",
     blockExplorerApi: "https://block-explorer-api.era-gateway-mainnet.zksync.dev",
@@ -139,7 +141,7 @@ const publicChains: ZkSyncNetwork[] = [
       isTestnet: false,
     },
     nativeCurrency: {
-      name: "ZKsync",
+      name: "Zeeve",
       symbol: "ZK",
       decimals: 18,
     },
@@ -148,7 +150,8 @@ const publicChains: ZkSyncNetwork[] = [
   {
     id: 32657,
     key: "gateway-testnet",
-    name: "ZKsync Gateway Testnet",
+    name: "Zeeve Gateway Testnet",
+    hidden: true,
     rpcUrl: "https://rpc.era-gateway-testnet.zksync.dev",
     blockExplorerUrl: "https://explorer.era-gateway-testnet.zksync.dev",
     blockExplorerApi: "https://block-explorer.era-gateway-testnet.zksync.dev",
@@ -159,7 +162,7 @@ const publicChains: ZkSyncNetwork[] = [
       isTestnet: true,
     },
     nativeCurrency: {
-      name: "ZKsync",
+      name: "Zeeve",
       symbol: "ZK",
       decimals: 18,
     },
@@ -193,7 +196,7 @@ const publicChains: ZkSyncNetwork[] = [
         address: "0xd12660590f4D07864a6a077E4638F3f2235732A2",
         l2Address: "0xd12660590f4D07864a6a077E4638F3f2235732A2",
         symbol: "ZK",
-        name: "ZKsync Token",
+        name: "Zeeve Token",
         decimals: 18,
         iconUrl: "https://s2.coinmarketcap.com/static/img/coins/128x128/24091.png",
       },

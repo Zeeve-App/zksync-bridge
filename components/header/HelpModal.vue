@@ -33,7 +33,7 @@
       </DestinationItem>
       <DestinationItem
         label="Official Documentation"
-        description="Developer resources and technical ZKsync documentation"
+        description="Developer resources and technical Zeeve documentation"
         as="a"
         href="https://era.zksync.io"
         target="_blank"

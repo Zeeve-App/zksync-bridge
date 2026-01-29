@@ -66,8 +66,12 @@ import { chainList } from "@/data/networks";
 
 import type { ZkSyncNetwork } from "@/data/networks";
 
-const mainnetList = computed(() => chainList.filter((e) => e.displaySettings && !e.displaySettings.isTestnet));
-const testnetList = computed(() => chainList.filter((e) => e.displaySettings && e.displaySettings.isTestnet));
+const mainnetList = computed(() =>
+  chainList.filter((e) => e.displaySettings && !e.displaySettings.isTestnet && !e.hidden)
+);
+const testnetList = computed(() =>
+  chainList.filter((e) => e.displaySettings && e.displaySettings.isTestnet && !e.hidden)
+);
 
 const route = useRoute();
 
